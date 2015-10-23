@@ -1,0 +1,6 @@
+# Note that pressing the power button generates *two* ACPI button/power-events:
+# button/power PBTN 00000080 00000000
+# button/power LNXPWRBN:00 00000080 00000007
+
+event=button/power PBTN.*
+action=/etc/acpi/actions/suspend.sh "%e"

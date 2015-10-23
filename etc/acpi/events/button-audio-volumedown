@@ -1,0 +1,2 @@
+event=button/volumedown.*
+action=/etc/acpi/actions/audio-speakers-set-volume.sh "%e" "-5%%"

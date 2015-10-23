@@ -1,0 +1,2 @@
+event=button/f20 F20.*
+action=/etc/acpi/actions/audio-mic-toggle-mute.sh "%e"

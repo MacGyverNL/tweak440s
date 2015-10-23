@@ -1,0 +1,2 @@
+event=video/brightnessup.*
+action=/etc/acpi/actions/video-brightnessup.sh "%e"
